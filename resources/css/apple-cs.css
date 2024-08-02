@@ -16,6 +16,21 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 12px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Scrollbar track background */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6edae6; /* Scrollbar thumb color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+
 :root {
   --primary-color: #6edae6;
   --white-color: #fff;
